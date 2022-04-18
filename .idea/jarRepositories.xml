@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="bpm-mx-artifacts" />
+      <option name="name" value="bpm-mx-artifacts" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/bpm-mx-artifacts/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="connectivity-releases" />
+      <option name="name" value="connectivity-releases" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/connectivity-releases-external" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ci-connect-lx-proxy-group" />
+      <option name="name" value="ci-connect-lx-proxy-group" />
+      <option name="url" value="http://nexus-external/nexus/content/groups/ci-connect-lx-proxy-group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="connectivity-snapshots" />
+      <option name="name" value="connectivity-snapshots" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/connectivity-snapshots-external" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jenkins-releases" />
+      <option name="name" value="jenkins-releases" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/jenkins-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="connectivity-snapshots-external" />
+      <option name="name" value="connectivity-snapshots-external" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/connectivity-snapshots-external" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="dd-repo" />
+      <option name="name" value="dd-repo" />
+      <option name="url" value="http://nexus-external/nexus/content/groups/DatadictionaryRepositories/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="packaging-factory-snapshots" />
+      <option name="name" value="packaging-factory-snapshots" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/packaging-factory-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="thirdparty" />
+      <option name="name" value="thirdparty" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/maven-atlassian/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-releases" />
+      <option name="name" value="spring-releases" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/spring-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="mx-artifacts" />
+      <option name="name" value="mx-artifacts" />
+      <option name="url" value="http://nexus-dev/nexus/content/groups/mx-artifacts" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="packaging-factory-releases" />
+      <option name="name" value="packaging-factory-releases" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/packaging-factory-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bip-snapshots" />
+      <option name="name" value="bip-snapshots" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/bip-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="public" />
+      <option name="name" value="public" />
+      <option name="url" value="http://nexus-external/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="connectivity-releases-external" />
+      <option name="name" value="connectivity-releases-external" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/connectivity-releases-external" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/central/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="murex_setups_proxy" />
+      <option name="name" value="murex_setups_proxy" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/murex_setups_proxy/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bip-releases" />
+      <option name="name" value="bip-releases" />
+      <option name="url" value="http://nexus-external/nexus/content/repositories/bip-releases/" />
+    </remote-repository>
+  </component>
+</project>

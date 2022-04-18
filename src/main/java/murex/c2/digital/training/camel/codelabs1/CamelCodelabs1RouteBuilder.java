@@ -16,18 +16,18 @@ public class CamelCodelabs1RouteBuilder extends RouteBuilder {
 //                .to("file://target/test-classes/output/"); //write files to directory target/test-classes/output/
 
         XmlValidityCheckProcessor xmlValidityCheckProcessor = new XmlValidityCheckProcessor();
-
-        from("file:{{camel.codelabs1.input.folder}}")
-            .onException(EmptyXmlFileException.class)
+        onException(EmptyXmlFileException.class)
                 .handled(true)
                 .log(LoggingLevel.ERROR, "the xml doesn't contain deal tag : ${body}")
-                .to("file://{{camel.codelabs1.output.empty.file.folder}}")
-            .onException(XmlFormatException.class)
+                .to("file://{{camel.codelabs1.output.empty.file.folder}}");
+         onException(XmlFormatException.class)
                 .handled(true)
                 .log(LoggingLevel.ERROR, "it is not an XML : ${body}")
                 .to("file://{{camel.codelabs1.output.wrong.format.folder}}")
-                .end()
+                .end();
+        from("file:{{camel.codelabs1.input.folder}}")
             .routeId("MainRoute") // read files from directory target/test-classes/input/
+            .process(xmlValidityCheckProcessor)
             .log("Body is ${body}")
             .to("file:{{camel.codelabs1.output.ok.folder}}"); //write files to directory target/test-classes/output/
 
